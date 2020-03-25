@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        fastjsonVersion = '1.2.18'
+        fastjsonVersion = '1.2.67'
         shiroVersion = '1.4.0'
         springRedisVersion = '1.4.7.RELEASE'
         commonsLang3Version = '3.7'
@@ -40,7 +40,5 @@ dependencies {
             "org.apache.shiro:shiro-web:${shiroVersion}",
             "org.apache.shiro:shiro-spring:${shiroVersion}",
             //shiro相关jar包 end
-            "org.java-websocket:Java-WebSocket:1.4.0",
-            "org.asynchttpclient:async-http-client:2.10.5",
     )
 }
